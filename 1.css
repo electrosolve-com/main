@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+.body{
+	background: #171717;
+}
+hr{
+	background-color: #fff;
+}
+h2{
+	color: #ffc107!important;
+}
+.navbar{
+	background:#2e2a20;	
+	font-family: 'Sriracha', cursive;
+}
+.nav-link , .navbar-brand{
+	color: #ffc107;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background-color: #f4f4f4;
+	color: #f97300
+}
+.navbar-collapse{
+	justify-content: center;
+	padding: 10px 0px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.navbar-toggler{
+	background-color: #fff !important;
+}
+.navbar h3{
+	margin: 0px 0px 0px 0px;
+}
+.navbar h5{
+	font-size: 23px;
+	font-weight: 500;
+	margin: 0px 0px 0px 0px;
+
+}
+.nav-item{
+
+}
+
+.header{
+	height: auto;
+	background-image: url(contemporary-room-workplace-office-supplies-concept.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 75%;
+}
+.overlay{
+
+	min-height: 100%;
+	min-width: 100%;
+	background: rgba(0, 0, 0, 0.65);
+}
+.description{
+
+	padding: 300px 20px 250px;
+
+}
+.description h1{
+	height: auto;
+	color: #f97300;
+}
+.description p{
+	color: #666;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.description button{
+	height: auto;
+	border: 1px solid #f97300;
+	background: #f97300;
+	color: #fff;
+}
+.best_option{
+	margin: 4em 0;
+	position: relative;
+}
+.best_option h1{
+	color: #f97300;
+	
+}
+.hh1{
+	text-align: center;
+	color: #f97300;
+}
+.row_pad{
+	display: flex;
+	justify-content: center;
+}
+.best_option .product{
+	width: 100%;
+
+}
+.best_option .product .product_text{
+	padding: 0;
+	width: 65%;
+}
+.best_option .product .product_img{
+	width: 100%;
+	height: auto;
+}
+.best_option .product .product_img img{
+	width: 100%;
+}
+.best_option .row{
+	margin: 25px;
+}
+.btn{
+	white-space: normal!important;
+}
+
+.img404 img{
+	width: 100%;
+}
+/*.card-header{
+	width: 100%;
+}
+.card-header button{
+	width: 100%;
+}
+
+/*.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color: #f97300;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left: 4px solid #10828c;
+}
+.about .desc h3{
+	color: #10828c;
+}
+.about .desc p{
+	line-height: 2;
+	color: #888;
+}
