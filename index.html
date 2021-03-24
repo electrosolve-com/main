@@ -13,22 +13,33 @@
     <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-	<div class="body">
+	<div class="body" id="body">
 	<nav class="navbar navbar-expand-lg fixed-top justify-content-between">
-		<a class="navbar-brand" href="#"><h3>electrosolve.ua</h3></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<a class="navbar-brand " data-value="body" href="#"><h3>electrosolve.ua</h3></a>
+		<div class="navbar-dark">
+			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-4">
 				<li class="nav-item">
-					<a class="nav-link" href="#"><h5>Найкращі пропозиції</h5></a>
+					<a class="nav-link" data-value="best_option" href="#"><h5>Найкращі пропозиції</h5></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><h5>Всі товари</h5></a>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Всі товари
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" data-value="office_pc" href="#"><h5>Офісні ПК</h5></a>
+					  <a class="dropdown-item" data-value="gaming_pc" href="#"><h5>Ігрові ПК</h5></a>
+					  <a class="dropdown-item" data-value="proffesional_pc" href="#"><h5>Професійні ПК</h5></a>
+					</div>
 				</li>
+
 				<li class="nav-item">
-					<a class="nav-link" href="#"><h5>Відгуки</h5></a>
+					<a class="nav-link" data-value="###" href="#"><h5>Відгуки</h5></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="forum.html"><h5>Форум</h5></a>
@@ -51,21 +62,21 @@
 				<div class="row">
 					<div class="col col-lg-8 col-md-12 col-sm-12  ">
 						<h1>
-							Hello, Welcome To My Official Website
+							Вітаємо!
 							<p>
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat non poident? sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Місія нашого сайту вирішувати питання простого і зрозумілого підбору комп'ютера, який буде кращий саме для вас!
 							</p>
-							<button class="btn btn-outline-secondary">See more</button>
+							<button class="btn btn-outline-secondary">Детальніше</button>
 						</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<div class="best_option">
+	<div class="best_option" id="best_option">
 		<div class="container-fluid">
 			<div class="row ">
-				<div class="col-sm-12 hh1 ">
+				<div class="col-sm-12 hh1">
 				<h1>Наші найкращі пропозиції</h1>
 				</div>
 		  	</div>
@@ -82,30 +93,10 @@
 				<div class="col-lg-5 col-md-5 col-sm-12">
 					<div class="product">
 						<div class="product_text">
-							<h3>Gaming-1</h3>
-							<p>best option ever</p>
-							<p>price:::</p>
-							<button type="button" class="btn btn-info">See more</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-			</div>
-			<div class="row">
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<div class="product">
-						<div class="product_img"><img src="img/1-hyperpc-nzxt-h500i_white.jpg"></div>
-					</div>
-				</div>
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-				<div class="col-lg-5 col-md-5 col-sm-12">
-					<div class="product">
-						<div class="product_text">
-							<h3>Gaming-1</h3>
-							<p>best option ever</p>
-							<p>price:::</p>
-							<button type="button" class="btn btn-info">See more</button>
+							<h2>Econom class</h2>
+							<p>Опис</p>
+							<p>Ціна: 5500грн</p>
+							<button type="button" class="btn btn-warning">Дізнатися більше</button>
 						</div>
 					</div>
 				</div>
@@ -156,7 +147,7 @@
 	
 	
 	
-	<div class="best_option">
+	<div class="best_option" >
 		<div class="container-fluid">
 			<div class="row ">
 				<div class="col-sm-12 hh1 ">
@@ -166,28 +157,8 @@
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 				<div class="col-lg-10 col-md-12 col-sm-12">
-					<h2>Офісні компьютери</h2>
+					<h2 id="office_pc">Офісні компьютери</h2>
 					<hr>
-				</div>
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-			</div>
-			<div class="row">
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<div class="product">
-						<div class="product_img"><img src="img/1-hyperpc-nzxt-h500i_white.jpg"></div>
-					</div>
-				</div>
-				<div class="col-lg-1 col-md-1 col-sm-1"></div>
-				<div class="col-lg-5 col-md-5 col-sm-12">
-					<div class="product">
-						<div class="product_text">
-							<h3>Gaming-1</h3>
-							<p>best option ever</p>
-							<p>price:::</p>
-							<button type="button" class="btn btn-info">See more</button>
-						</div>
-					</div>
 				</div>
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 			</div>
@@ -258,7 +229,7 @@
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 				<div class="col-lg-10 col-md-12 col-sm-12">
-					<h2>Ігрові компьютери</h2>
+					<h2 id="gaming_pc">Ігрові компьютери</h2>
 					<hr>
 				</div>
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
@@ -323,6 +294,19 @@
 				</div>
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 			</div>
+
+		</div>
+	</div>
+	<div class="best_option">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				<div class="col-lg-10 col-md-12 col-sm-12">
+					<h2 id="proffesional_pc">Ігрові компьютери</h2>
+					<hr>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+			</div>
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 				<div class="col-lg-4 col-md-4 col-sm-12">
@@ -343,6 +327,47 @@
 				</div>
 				<div class="col-lg-1 col-md-1 col-sm-1"></div>
 			</div>
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="product">
+						<div class="product_img"><img src="img/1-hyperpc-nzxt-h500i_white.jpg"></div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				<div class="col-lg-5 col-md-5 col-sm-12">
+					<div class="product">
+						<div class="product_text">
+							<h3>Gaming-1</h3>
+							<p>best option ever</p>
+							<p>price:::</p>
+							<button type="button" class="btn btn-info">See more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="product">
+						<div class="product_img"><img src="img/1-hyperpc-nzxt-h500i_white.jpg"></div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				<div class="col-lg-5 col-md-5 col-sm-12">
+					<div class="product">
+						<div class="product_text">
+							<h3>Gaming-1</h3>
+							<p>best option ever</p>
+							<p>price:::</p>
+							<button type="button" class="btn btn-info">See more</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1"></div>
+			</div>
+
 		</div>
 	</div>
 	<div class="question_answers">

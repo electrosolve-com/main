@@ -10,6 +10,15 @@ hr{
 h2{
 	color: #ffc107!important;
 }
+.hh1{
+	text-align: center;
+	color: #faf600;
+}
+.btn{
+	white-space: normal!important;
+}
+
+
 .navbar{
 	background:#2e2a20;	
 	font-family: 'Sriracha', cursive;
@@ -20,31 +29,47 @@ h2{
 }
 .nav-link{
 	margin-right: 1em !important;
+	transition: 0.5s;
 }
 .nav-link:hover{
 	background-color: #f4f4f4;
-	color: #f97300
+	color: #f97300;
 }
 .navbar-collapse{
 	justify-content: center;
 	padding: 10px 0px;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-.navbar-toggler{
-	background-color: #fff !important;
-}
 .navbar h3{
 	margin: 0px 0px 0px 0px;
+	
 }
 .navbar h5{
 	font-size: 18px;
 	font-weight: 500;
 	margin: 0px 0px 0px 0px;
-
+	padding: 0px 0px 5px 0px!important;
+	
 }
-.nav-item{
-
+nav .nav-link{
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px!important;
 }
+nav .dropdown-item{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: #ffc107;
+}
+nav .dropdown-menu{
+	background-color: #2e2a20;
+}
+nav .dropdown-item:hover{
+	color: #f97300;
+}
+
+
+
 
 .header{
 	height: auto;
@@ -60,9 +85,7 @@ h2{
 	background: rgba(0, 0, 0, 0.65);
 }
 .description{
-
 	padding: 300px 20px 250px;
-
 }
 .description h1{
 	height: auto;
@@ -79,25 +102,22 @@ h2{
 	background: #f97300;
 	color: #fff;
 }
+.description button:hover{
+	height: auto;
+	border: 1px solid #f97300;
+	background: #f97300;
+	color: #fff;
+}
+
+
+
+
 .best_option{
 	margin: 4em 0;
 	position: relative;
 }
-.best_option h1{
-	color: #f97300;
-	
-}
-.hh1{
-	text-align: center;
-	color: #f97300;
-}
-.row_pad{
-	display: flex;
-	justify-content: center;
-}
 .best_option .product{
 	width: 100%;
-
 }
 .best_option .product .product_text{
 	padding: 0;
@@ -113,48 +133,9 @@ h2{
 .best_option .row{
 	margin: 25px;
 }
-.btn{
-	white-space: normal!important;
-}
+
+
 
 .img404 img{
 	width: 100%;
-}
-/*.card-header{
-	width: 100%;
-}
-.card-header button{
-	width: 100%;
-}
-
-/*.about{
-	margin: 4em 0;
-	padding: 1em;
-	position: relative;
-}
-.about h1{
-	color: #f97300;
-	margin: 2em;
-}
-.about img{
-	height: 100%;
-	width: 100%;
-	border-radius: 50%;
-}
-.about span{
-	display: block;
-	color: #888;
-	position: absolute;
-	left: 115px;
-}
-.about .desc{
-	padding: 2em;
-	border-left: 4px solid #10828c;
-}
-.about .desc h3{
-	color: #10828c;
-}
-.about .desc p{
-	line-height: 2;
-	color: #888;
 }
