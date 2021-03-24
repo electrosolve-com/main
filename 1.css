@@ -9,22 +9,30 @@ hr{
 }
 h2{
 	color: #ffc107!important;
+	margin-top: 50px;
 }
 .hh1{
 	text-align: center;
-	color: #faf600;
+	color: #f97300;
+	
 }
 .btn{
 	white-space: normal!important;
 }
+.hr_tr{
+	background-color:transparent;
+	border: 1px solid transparent;
+	margin: 0px 0px 100px;
+}
 
 
 .navbar{
-	background:#2e2a20;	
+	background:#171717;	
 	font-family: 'Sriracha', cursive;
+	border-bottom: 1px solid #f97300;
 }
 .nav-link , .navbar-brand{
-	color: #ffc107;
+	color: #f97300;
 	cursor: pointer;
 }
 .nav-link{
@@ -44,12 +52,14 @@ h2{
 	margin: 0px 0px 0px 0px;
 	
 }
-.navbar h5{
+.navbar .hh5{
 	font-size: 18px;
 	font-weight: 500;
 	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 5px 0px!important;
-	
+	padding: 2px 0px 3px 0px;
+}
+.hh5_1{
+	padding: 0px 0px 0px 0px!important;
 }
 nav .nav-link{
 	font-size: 18px;
@@ -59,10 +69,10 @@ nav .nav-link{
 }
 nav .dropdown-item{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
-	color: #ffc107;
+	color: #f97300;
 }
 nav .dropdown-menu{
-	background-color: #2e2a20;
+	background-color: #171717;
 }
 nav .dropdown-item:hover{
 	color: #f97300;
@@ -79,21 +89,22 @@ nav .dropdown-item:hover{
 	background-position: 75%;
 }
 .overlay{
-
 	min-height: 100%;
 	min-width: 100%;
-	background: rgba(0, 0, 0, 0.65);
+	background: rgba(0, 0, 0, 0.60);
 }
 .description{
 	padding: 300px 20px 250px;
 }
 .description h1{
 	height: auto;
+	font-size: 45px;
+	font-weight: 500;
 	color: #f97300;
 }
 .description p{
-	color: #666;
-	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
 	line-height: 1.5;
 }
 .description button{
@@ -112,25 +123,25 @@ nav .dropdown-item:hover{
 
 
 
-.best_option{
+.all_pc{
 	margin: 4em 0;
 	position: relative;
 }
-.best_option .product{
+.all_pc .product{
 	width: 100%;
 }
-.best_option .product .product_text{
+.all_pc .product .product_text{
 	padding: 0;
 	width: 65%;
 }
-.best_option .product .product_img{
+.all_pc .product .product_img{
 	width: 100%;
 	height: auto;
 }
-.best_option .product .product_img img{
+.all_pc .product .product_img img{
 	width: 100%;
 }
-.best_option .row{
+.all_pc .row{
 	margin: 25px;
 }
 
@@ -139,3 +150,4 @@ nav .dropdown-item:hover{
 .img404 img{
 	width: 100%;
 }
+
