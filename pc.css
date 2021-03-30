@@ -9,12 +9,31 @@
 img{
     width: 100%;
 }
+.pc_top{
+    height: auto;
+}
 .pc_text_center{
     text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 .pc_text_center h4{
     color: #afafaf;
 }
 .pc_text_center h1{
     font-size: 45px;
+}
+.pc_text_center h4{
+    text-align: left;
+    font-size: 20px;
+}
+.pc_text_center h3{
+    align-self: flex-start;
+    color: lawngreen;
+}
+.pc_characteristic{
+    margin-top: 50px;
 }
