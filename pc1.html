@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="pc.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,24 +16,44 @@
 <body>
     <div class="body">
         <nav class="navbar navbar-expand-lg fixed-top justify-content-between">
-            <a class="navbar-brand" href="#"><h3>electrosolve.ua</h3></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand " data-value="body" href="#"><h3>electrosolve.ua</h3></a>
+            <div class="navbar-dark">
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-4">
+    
+    
+    
+    
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><h5>Найкращі пропозиції</h5></a>
+                        <a class="nav-link" data-value="best_option" href="#"><h5 class="hh5">Найкращі пропозиції</h5></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class=" hh5_1">Всі товари</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" data-value="office_pc" href="#"><h5 class="hh5">Офісні ПК</h5></a>
+                          <a class="dropdown-item" data-value="gaming_pc" href="#"><h5 class="hh5">Ігрові ПК</h5></a>
+                          <a class="dropdown-item" data-value="proffesional_pc" href="#"><h5 class="hh5">Професійні ПК</h5></a>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="###" href="#"><h5 class="hh5">Відгуки</h5></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><h5>Всі товари</h5></a>
+                        <a class="nav-link" href="forum.html"><h5 class="hh5">Форум</h5></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><h5>Відгуки</h5></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="forum.html"><h5>Форум</h5></a>
-                    </li>
+    
+    
+    
+    
+    
                 </ul>
                 
             </div>
@@ -45,16 +66,91 @@
                 </div>
               </form>
         </nav>
-        <div class="pc_head">
-            <div class="pc_top_text">
-                <div class="container-fluid">
-                    <div class="col col-lg-1 col-md-1 col-sm-1"></div>
-                    <div class="col col-lg-10 col-md-12 col-sm-12">
-                        <h1>
-                            
-                        </h1>
+        <nav class="navbar navbar-expand-lg  justify-content-between">
+            <a class="navbar-brand " data-value="body" href="#"><h3>electrosolve.ua</h3></a>
+            <div class="navbar-dark">
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+    
+    
+    
+    
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="best_option" href="#"><h5 class="hh5">Найкращі пропозиції</h5></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class=" hh5_1">Всі товари</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" data-value="office_pc" href="#"><h5 class="hh5">Офісні ПК</h5></a>
+                          <a class="dropdown-item" data-value="gaming_pc" href="#"><h5 class="hh5">Ігрові ПК</h5></a>
+                          <a class="dropdown-item" data-value="proffesional_pc" href="#"><h5 class="hh5">Професійні ПК</h5></a>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="###" href="#"><h5 class="hh5">Відгуки</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forum.html"><h5 class="hh5">Форум</h5></a>
+                    </li>
+    
+    
+    
+    
+    
+                </ul>
+                
+            </div>
+            <form class="form-inline">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </form>
+
+        </nav>
+        <div class="nothing">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-lg-1 col-md-1 col-sm-1 col"></div>
+                    <div class=" col-lg-12 col-md-12 col-sm-12 col">
+                        <a href="#">
+                            <h3>
+                              ###
+                            </h3>
+                        </a>
                     </div>
-                    <div class="col col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class=" col-lg-1 col-md-1 col-sm-1 col"></div>
+                </div>
+            </div>
+        </div>
+        <div class="pc_main">
+            <div class="pc_top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                        <div class="col-lg-10 col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                    <img src="img/1-hyperpc-nzxt-h500i_white.jpg">
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-12 pc_text_center">
+                                    <h1 class="hh1">Название компа</h1>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id rem, amet explicabo illo modi, dolores asperiores, porro culpa alias rerum totam laborum dicta. Tempora enim eaque fugit vel voluptates, unde excepturi quos magnam itaque aut amet, voluptas optio. Temporibus consequuntur odio commodi reprehenderit esse repellat natus possimus vel mollitia.</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    </div>
                 </div>
             </div>
         </div>
