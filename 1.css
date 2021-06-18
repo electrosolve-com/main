@@ -133,6 +133,7 @@ nav .dropdown-item:hover{
 .all_pc .product .product_text{
 	padding: 0;
 	width: 65%;
+	color: #f4f4f4;
 }
 .all_pc .product .product_img{
 	width: 100%;
@@ -151,3 +152,21 @@ nav .dropdown-item:hover{
 	width: 100%;
 }
 
+
+
+
+
+
+
+
+.all_pc_office .btnfl{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.all_pc_office .btn45{
+	width: 100%;
+}
+.card_row{
+	padding: 10px!important;
+}
