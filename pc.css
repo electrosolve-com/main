@@ -43,5 +43,14 @@ img{
 }
 .pc_cost{
     display: flex;
-    flex-direction: ;
+}
+.pc_cost span{
+    padding: 0 15px;
+}
+.pc_additional_buy{
+    margin-top: 50px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
 }
